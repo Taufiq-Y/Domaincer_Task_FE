@@ -1,4 +1,4 @@
-export const server = "https://dream-jobs-api.herokuapp.com";
+export const server = "https://domaincer-be.herokuapp.com/";
 
 const apiList = {
   login: `${server}/auth/login`,
