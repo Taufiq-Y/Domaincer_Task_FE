@@ -24,8 +24,8 @@ const Navbar = (props) => {
     <AppBar position="fixed">
       <Toolbar>
         <Typography variant="h6" style={{fontWeight:'bold',fontSize:'40px'}} className={classes.title}>
-       <div style={{display:'flex'}}>  
-          <span style={{color:'white',fontWeight:'bold',fontSize:'40px',margin:'0 10px'}}>Domaincer</span> Careers</div>
+       <div style={{display:'flex'}}>   <img src='https://w7.pngwing.com/pngs/271/479/png-transparent-career-development-computer-icons-job-employment-career-coach-blue-logo-employment.png' alt='logo' style={{height:'55px',width:'60px',borderRadius:'50%',marginTop:'4px'}} />
+          <span style={{color:'white',fontWeight:'bold',fontSize:'40px',margin:'0 10px'}}>DREAM</span>JOBS</div>
         </Typography>
         {isAuth() ? (
           userType() === "recruiter" ? (
@@ -39,11 +39,11 @@ const Navbar = (props) => {
                 <Link to='/myjobs' style={{textDecoration:"none",color:"white"}}>
                   My Jobs</Link>
               </Button>
-              {/* <Button color="inherit" >
+              <Button color="inherit" >
                 <Link to='/employees' style={{textDecoration:"none",color:"white"}}>
                   Employees</Link>
 
-              </Button> */}
+              </Button>
               <Button color="inherit" >
                 <Link to='/profile' style={{textDecoration:"none",color:"white"}}>
                   Profile</Link>
